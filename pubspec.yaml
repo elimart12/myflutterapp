@@ -1,0 +1,33 @@
+name: herramientas_app
+description: Aplicación tipo caja de herramientas que integra múltiples APIs y funciones.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/toolbox.jpg
+    - assets/images/joven.jpg
+    - assets/images/adulto.jpg
+    - assets/images/anciano.jpg
+    - assets/images/icon.png
